@@ -109,7 +109,6 @@ function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
         score += 5000;
         document.getElementById(e.id).style.background = 'limegreen';
-        // document.getElementById(e.id).style.background = 'limegreen';
         rightSong.play()
     }
     else{
@@ -122,7 +121,6 @@ function calcScore(e){
 
 // function to display next question
 function nextQuestion(){
-    // countDown()
     if(i < questionBank.length - 1){
         i += 1
         displayQuestion();
@@ -134,8 +132,6 @@ function nextQuestion(){
     }
 }
 
-// click events to next button
-// next.addEventListener('click',nextQuestion);
 
 // Back to Quiz button evenT
 function backToQuiz(){
@@ -146,7 +142,6 @@ function backToQuiz(){
 function checkAnswer(){
     let answerBank = document.getElementById('answerBank');
     let answers = document.getElementById('answers');
-    // answerBank.style.display = 'block';
     scoreboard.style.display = 'block';
     for(let a = 0; a < questionBank.length; a++){
         let list = document.createElement('li');
