@@ -144,4 +144,24 @@ button:active{
     border-radius: 20px;
     font-size: 15px;
     }
+    .div20{
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    .div21{
+        position: relative;
+        left: 700px;
+        top: -50px;
+    }
+    .div22{
+        position: relative;
+        top: -30px;
+        left: 27px;
+    }
+    .div23{
+        position: relative;
+        top: -110px;
+        left: 700px;
+    }
 }
