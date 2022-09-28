@@ -178,5 +178,5 @@ function startMyGame(){
     window.location.href = "wwtbam.html"
 }
 function backToGame(){
-    window.location.href = ("wwtbam.html")
+    window.location.href = ("index.html")
 }
