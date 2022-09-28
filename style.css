@@ -191,7 +191,7 @@ button:active{
         margin: auto;
         position: relative;
         height: 60px;
-        color: white;
+        color: white !important;
         font-size: 15px;
     }
     #scoreboard,#answerBank{
