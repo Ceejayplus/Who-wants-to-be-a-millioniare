@@ -76,6 +76,7 @@ span{
     display: block;
     height: 80px;
     border-radius: 50px;
+    margin-top: -0.5rem;
 }
 #answer{
     margin-top: 2.5rem;
@@ -107,7 +108,7 @@ button:active{
     text-align: center;
     margin: auto;
     position: relative;
-    top: -10rem;
+    top: 10rem;
     display: none;
     height: 20rem;
 }
@@ -193,5 +194,15 @@ button:active{
         color: white;
         font-size: 15px;
     }
-
+    #scoreboard,#answerBank{
+        width: 20rem;
+        background: rgba(230,230,250,0.77);
+        padding: 2rem;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 10rem;
+        display: none;
+        height: 20rem;
+    }
 }
