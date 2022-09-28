@@ -135,7 +135,7 @@ function nextQuestion(){
 
 // Back to Quiz button evenT
 function backToQuiz(){
-    location.reload();
+    window.location.href = ("index.html")
 }
 
 //function to check Answers

@@ -74,9 +74,9 @@ img{
 }
 span{
     display: block;
-    height: 80px;
+    height: 57px;
     border-radius: 50px;
-    margin-top: -0.5rem;
+    margin-top: -0.35rem;
 }
 #answer{
     margin-top: 2.5rem;
@@ -137,7 +137,7 @@ button:active{
     border-radius: 20px;
     font-size: 20px;
 }
-@media screen and (max-width: 520px) {
+@media all and (max-width: 520px) {
     body{
         overflow-y: hidden;
     }
@@ -181,7 +181,7 @@ button:active{
         text-align: center;
         color: white;
         font-size: 18px;
-        width: 80%;
+        /* width: 80%; */
         background-color: blue;
     }
     .option{
@@ -193,6 +193,7 @@ button:active{
         height: 60px;
         color: white !important;
         font-size: 15px;
+        margin-top: 15px;
     }
     #scoreboard,#answerBank{
         width: 20rem;
@@ -204,5 +205,82 @@ button:active{
         top: 10rem;
         display: none;
         height: 20rem;
+    }
+}
+@media all and (min-width: 521px) and (max-width: 768px) {
+    body{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .div13{
+        margin-top: 50px;
+    }
+    ul{
+        width: 97%;
+        padding-right: 74px;
+    }
+    .div17{
+    width: 300px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 15px;
+    }
+    .div20{
+        position: relative;
+        top: 30px;
+        left: -3px;
+    }
+    .div21{
+        position: relative;
+        left: -3px;
+        top: 35px;
+    }
+    .div22{
+        position: relative;
+        top: 40px;
+        left: -3px;
+    }
+    .div23{
+        position: relative;
+        top: 45px;
+        left: -3px;
+    }
+    #question{
+        margin-top: 5rem;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        /* width: 80%; */
+        background-color: blue;
+    }
+    .option{
+        border: 3px solid blue;
+        border-radius: 50px;
+        width: 95%;
+        margin: auto;
+        position: relative;
+        height: 60px;
+        color: white !important;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #scoreboard,#answerBank{
+        width: 20rem;
+        background: rgba(230,230,250,0.77);
+        padding: 2rem;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 10rem;
+        display: none;
+        height: 20rem;
+    }
+    #amountGained{
+        margin-top: -0.8rem;
+    }
+    #score-title{
+        margin: 0.7rem 0;
     }
 }
