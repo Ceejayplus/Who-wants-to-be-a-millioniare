@@ -125,6 +125,7 @@ function nextQuestion(){
     if(i < questionBank.length - 1){
         i += 1
         displayQuestion();
+        earned.innerHTML = `$ ${score}`;
     }
     else{
         points.innerHTML =`Congratulations you have earned $ ${score}`;
