@@ -67,6 +67,7 @@ let span = document.querySelectorAll('span');
 let i=0;
 let score = 5000;
 let earned = document.getElementById('dispEarned')
+let showMoni = document.getElementById('showMoney')
 let wrongSong = new Audio('sound_wrong.mp3')
 let rightSong = new Audio('sound_right.mp3')
 var mySong = new Audio('sound_background.mp3')
@@ -115,12 +116,13 @@ function calcScore(e){
     else{
         wrongSong.play()
         document.getElementById(e.id).style.background = 'tomato';
-       setTimeout(() => {window.location.href = "gameover.html"} ,1700)
+        setTimeout(() => {window.location.href = "gameover.html"} ,1700)
+        showMoni.innerHTML = `Congradulations you have earned $ ${score}`
     }
     setTimeout(nextQuestion,2000);
 }
 
-showMoney.innerHTML = ` Congradulations you have earned $ ${score}`
+
 
 // function to display next question
 function nextQuestion(){
