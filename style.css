@@ -137,6 +137,10 @@ button:active{
     border-radius: 20px;
     font-size: 20px;
 }
+#dispEarned{
+    position: relative;
+
+}
 @media all and (max-width: 520px) {
     body{
         overflow-y: hidden;
@@ -205,6 +209,16 @@ button:active{
         top: 10rem;
         display: none;
         height: 20rem;
+    }
+    #dispEarned{
+        position: relative;
+        top: 3rem;
+    }
+    span{
+        display: block;
+        height: 60px;
+        border-radius: 50px;
+        margin-top: -0.35rem;
     }
 }
 @media all and (min-width: 521px) and (max-width: 768px) {
