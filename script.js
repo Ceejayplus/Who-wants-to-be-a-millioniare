@@ -120,7 +120,7 @@ function calcScore(e){
     setTimeout(nextQuestion,2000);
 }
 
-showMoney.innerHTML = ` Congradulations you have earned ${score}`
+showMoney.innerHTML = ` Congradulations you have earned $ ${score}`
 
 // function to display next question
 function nextQuestion(){
