@@ -66,6 +66,7 @@ let points = document.getElementById('amountGained');
 let span = document.querySelectorAll('span');
 let i=0;
 let score = 5000;
+let earned = document.getElementById('dispEarned')
 let wrongSong = new Audio('sound_wrong.mp3')
 let rightSong = new Audio('sound_right.mp3')
 var mySong = new Audio('sound_background.mp3')
