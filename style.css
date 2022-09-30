@@ -51,6 +51,7 @@ img{
 }
 .option:hover{
     color: blue;
+    background-color: antiquewhite;
 }
 .div20{
     position: relative;
