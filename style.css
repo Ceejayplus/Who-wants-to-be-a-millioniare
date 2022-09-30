@@ -199,6 +199,10 @@ button:active{
         font-size: 15px;
         margin-top: 15px;
     }
+    .option:hover{
+        color: blue;
+        background-color: antiquewhite;
+    }
     #scoreboard,#answerBank{
         width: 20rem;
         background: rgba(230,230,250,0.77);
@@ -280,6 +284,10 @@ button:active{
         color: white !important;
         font-size: 15px;
         margin-top: 15px;
+    }
+    .option:hover{
+        color: blue;
+        background-color: antiquewhite;
     }
     #scoreboard,#answerBank{
         width: 20rem;
