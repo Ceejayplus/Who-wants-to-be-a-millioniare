@@ -123,6 +123,7 @@ function calcScore(e){
             wrongSong.pause()
             closingSong.play()
             dispEarned.style.display = `none`
+            finishgame.innerHTML = `<h1 class="text-danger fw-bold">GAME OVER</h1>`
             imagecontainer.style.display = 'none'
         } ,1700)
     }
