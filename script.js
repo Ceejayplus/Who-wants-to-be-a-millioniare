@@ -65,7 +65,7 @@ let next = document.querySelector('.next');
 let points = document.getElementById('amountGained');
 let span = document.querySelectorAll('span');
 let i=0;
-let score = 5000;
+let score = 1000;
 let earned = document.getElementById('dispEarned')
 let showMoni = document.getElementById('showMoney')
 let wrongSong = new Audio('sound_wrong.mp3')
@@ -109,18 +109,20 @@ function displayQuestion(){
 // function to calculate scores
 function calcScore(e){
     if(e.innerHTML === questionBank[i].answer && score > questionBank.length){
-        score += 5000;
+        score += 1000;
         document.getElementById(e.id).style.background = 'limegreen';
         rightSong.play()
     }
     else{
         wrongSong.play()
         document.getElementById(e.id).style.background = 'tomato';
-        setTimeout(() => {scoreboard.style.display = 'grid';
+        setTimeout(() => {
+            points.innerHTML =`Congratulations you have earned $ ${score}`;
+            scoreboard.style.display = 'grid';
             quizContainer.style.display = 'none';
-            
+            wrongSong.pause()
+            closingSong.play()
         } ,1700)
-        
     }
     setTimeout(nextQuestion,1800);
 }
