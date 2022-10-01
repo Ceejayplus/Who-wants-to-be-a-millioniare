@@ -37,9 +37,15 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #question{
-    margin-top: 10rem;
+    margin-top: 10rem !important;
     text-align: center;
     color: white;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    /* width: 500px; */
 }
 .option{
     border: 3px solid blue;
@@ -48,11 +54,17 @@ img{
     height: 80px;
     color: white;
     font-size: 25px;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.8px);
+    -webkit-backdrop-filter: blur(10.8px);
+    /* border: 1px solid rgba(255, 255, 255, 0.05); */
 }
-.option:hover{
-    color: blue;
+/* .option:hover{
+    color: blue !important;
     background-color: antiquewhite;
-}
+} */
 .div20{
     position: relative;
     top: 30px;
@@ -182,11 +194,15 @@ button:active{
         left: -3px;
     }
     #question{
-        margin-top: 5rem;
+        margin-top: 10rem !important;
         text-align: center;
         color: white;
-        font-size: 18px;
-        background-color: blue;
+        background: rgba(255, 255, 255, 0.46);
+        border-radius: 50px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10.8px);
+        -webkit-backdrop-filter: blur(10.8px);
+        /* width: 500px; */
     }
     .option{
         border: 3px solid blue;
@@ -199,7 +215,7 @@ button:active{
         font-size: 15px;
         margin-top: 15px;
     }
-    #scoreboard,#answerBank{
+    #scoreboard{
         width: 20rem;
         background: rgba(230,230,250,0.77);
         padding: 2rem;
@@ -216,7 +232,7 @@ button:active{
     }
     span{
         display: block;
-        height: 60px;
+        height: 57px;
         border-radius: 50px;
         margin-top: -0.35rem;
     }
@@ -262,13 +278,15 @@ button:active{
         left: -3px;
     }
     #question{
-        margin-top: 5rem;
+        margin-top: 10rem !important;
         text-align: center;
         color: white;
-        font-size: 18px;
-        /* width: 80%; */
-        background-color: blue;
-        border-radius: 10% !important;
+        background: rgba(255, 255, 255, 0.46);
+        border-radius: 50px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10.8px);
+        -webkit-backdrop-filter: blur(10.8px);
+        /* width: 500px; */
     }
     .option{
         border: 3px solid blue;

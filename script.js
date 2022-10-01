@@ -186,6 +186,7 @@ const askAround = () => {
 const phoneFriend = () => {
     friendSong.play()
     document.getElementById("z").src="phone-a-friend-used.png"
+    window.location.href = "tel:"
     var phoneFriend = document.getElementById("z")
     phoneFriend.onclick = ""
 }
