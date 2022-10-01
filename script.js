@@ -123,7 +123,7 @@ function calcScore(e){
             wrongSong.pause()
             closingSong.play()
             dispEarned.style.display = `none`
-            finishgame.innerHTML = `<h1 class="text-danger fw-bold">GAME OVER</h1>`
+            finishgame.innerHTML = `<h1 class="text-danger fw-bold mt-5">GAME OVER</h1>`
             imagecontainer.style.display = 'none'
         } ,1700)
     }
@@ -143,6 +143,8 @@ function nextQuestion(){
         points.innerHTML =`Congratulations you have earned $ ${score}`;
         quizContainer.style.display = 'none'
         scoreboard.style.display = "block"
+        dispEarned.style.display = `none`
+        imagecontainer.style.display = 'none'
     }
 }
 
