@@ -204,6 +204,9 @@ button:active{
         -webkit-backdrop-filter: blur(10.8px);
         /* width: 500px; */
     }
+    .div25{
+        width: 360px !important;
+    }
     .option{
         border: 3px solid blue;
         border-radius: 50px;
