@@ -116,10 +116,13 @@ function calcScore(e){
     else{
         wrongSong.play()
         document.getElementById(e.id).style.background = 'tomato';
-        setTimeout(() => {window.location.href = "gameover.html"} ,1700)
+        setTimeout(() => {scoreboard.style.display = 'grid';
+            quizContainer.style.display = 'none';
+            
+        } ,1700)
         
     }
-    setTimeout(nextQuestion,2000);
+    setTimeout(nextQuestion,1800);
 }
 
 
