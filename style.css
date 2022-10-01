@@ -306,4 +306,10 @@ button:active{
     #score-title{
         margin: 0.7rem 0;
     }
+    span{
+        display: block;
+        height: 57px;
+        border-radius: 50px;
+        margin-top: -0.35rem;
+    }
 }
