@@ -117,7 +117,7 @@ function calcScore(e){
         wrongSong.play()
         document.getElementById(e.id).style.background = 'tomato';
         setTimeout(() => {window.location.href = "gameover.html"} ,1700)
-        showMoni.innerHTML = `Congradulations you have earned $ ${score}`
+        
     }
     setTimeout(nextQuestion,2000);
 }
