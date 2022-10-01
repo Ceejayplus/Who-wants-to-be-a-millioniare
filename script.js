@@ -118,10 +118,12 @@ function calcScore(e){
         document.getElementById(e.id).style.background = 'tomato';
         setTimeout(() => {
             points.innerHTML =`Congratulations you have earned $ ${score}`;
-            scoreboard.style.display = 'grid';
+            scoreboard.style.display = 'block';
             quizContainer.style.display = 'none';
             wrongSong.pause()
             closingSong.play()
+            dispEarned.style.display = `none`
+            imagecontainer.style.display = 'none'
         } ,1700)
     }
     setTimeout(nextQuestion,1800);
